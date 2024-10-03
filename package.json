@@ -1,0 +1,35 @@
+{
+  "name": "back_end_landing_page_polgo",
+  "version": "1.0.0",
+  "description": "Back-end para o desfio tecnico para a vaga de desenvolvedor da polgo",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "npx tsx watch src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaovictor1516/back_end_desafio_tecnico_polgo.git"
+  },
+  "keywords": [
+    "typescript",
+    "mogodb",
+    "nodejs",
+    "vuejs"
+  ],
+  "author": "joao victor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaovictor1516/back_end_desafio_tecnico_polgo/issues"
+  },
+  "homepage": "https://github.com/joaovictor1516/back_end_desafio_tecnico_polgo#readme",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.7.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  }
+}
