@@ -24,11 +24,13 @@
   },
   "homepage": "https://github.com/joaovictor1516/back_end_desafio_tecnico_polgo#readme",
   "dependencies": {
-    "axios": "^1.7.7",
+    "cors": "^2.8.5",
     "dotenv": "^16.4.5",
-    "mongoose": "^8.7.0"
+    "express": "^4.21.0"
   },
   "devDependencies": {
+    "@types/express": "^5.0.0",
+    "mongodb": "^6.9.0",
     "tsx": "^4.19.1",
     "typescript": "^5.6.2"
   }
